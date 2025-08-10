@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Enhanced Form Website   </title>
+    </head>
+    <body>
+        <header>Student Information and Registration website !</header>
+         <!--Section 1 lists-->
+         <section>
+            <h2>Available Units</h2>
+            <ol>
+                <li>Full Stack Development</li>
+                <li>Data Science</li>
+                <li>Machine Languages</li>
+                <li>Web Developmet</li>
+            </ol>
+         </section>
+         
+         <!--Section 2 Tables-->
+         <section>
+            <h3>Student Information</h3>
+        <table>
+            <tr>
+                <th>Student_ID</th>
+                <th>Student_Name</th>
+                <th>Languages</th>
+            </tr>
+            <tr>
+                <td>1432</td>
+                <td>Aaliyah Dawn</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>1444</td>
+                <td>Dwayne bradly</td>
+                <td>MySql</td>
+            </tr>
+        </table>
+         </section>
+
+         <!--Section 3 Media-->
+    <section>
+       <h2>Media Showcase</h2>
+
+            <h3>Image</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Graduation_hat_icon.svg" 
+                    alt="Graduation cap representing student success" width="300">
+
+        <h3>Audio </h3>
+                <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+        <p><em>Motivational background music for new students.</em></p>
+
+        <h3>Video</h3>
+                <video controls width="400">
+                 <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+                 Your browser does not support the video element.
+                </video>
+            <p><em>Introduction to our student registration process.</em></p>
+    </section>
+       <!--Section 4 Registration form-->
+       <section>
+        <header>
+            <h2>Registration Form</h2>
+        </header>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="unit">Select Unit:</label>
+            <select id="unit" name="unit">
+                <option value="full-stack">Full Stack Development</option>
+                <option value="data-science">Data Science</option>
+                <option value="machine-learning">Machine Learning</option>
+                <option value="web-development">Web Development</option>
+            </select>
+
+            <button type="submit">Register</button>
+       </section>
+
+       <footer>
+        <p>&copy; 2025 Student Registration. All rights reserved.</p>
+       </footer>
+        
+    </body>
+</html>
