@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box; /* includes padding and border in element's width */
+  margin: 10 px;
+  padding: 0;
+
+}
+
+body{
+  font-family: "Playwrite AU NSW", cursive;
+  background: linear-gradient(to right, #f0f4f8, #e0e7ff);
+  color: #124222;
+  line-height: 1.5;
+  font-size: 1.125rem; /* 18px */
+}
+
+#main-header {
+  display: flex;
+  align-items: center;
+  padding: 10 pxs;
+  background-color: var(--header-bg);
+  text-emphasis-color: var(--header-text);
+  text-align: center;
+border-bottom: 2px solid var(--header-border);
+}
+
+#main-header h1{
+  font-size: 1.6rem;
+}
+
+/* Class selector example: intro section that demonstrates margin, padding and a background */
+.intro{
+  max-width: 900px;
+  margin: 18px auto;           /* pushes the element away from other blocks */
+  padding: 18px;               /* adds breathing room inside the box */
+  border: 3px solid rgba(197, 127, 70, 0.15);
+  background: rgba(165, 20, 82, 0.20);
+  border-radius: 8px;
+}
+
+.intro p{
+  margin-bottom: 12px;         /* space between paragraphs */
+  color: var(--muted);
+}
+
+.intro h2{
+  margin-top: 0;               /* removes default margin from the top */
+  color: var(--primary);
+}
+
